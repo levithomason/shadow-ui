@@ -7,6 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
+  <sui-button primary>Primary Button</sui-button>
+  <sui-button secondary>Secondary Button</sui-button>
+  <sui-button label="My Label">Labeled Button</sui-button>
+  <sui-button label>
+    Secondary Button
+    <span slot="label" style="color:red">
+      My Custom Label
+    </span>
+  </sui-button>
   <script type="module" src="/index.js"></script>
 </body>
 </html>
