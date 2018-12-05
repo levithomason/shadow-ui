@@ -4,9 +4,17 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "cd src && live-server"
+    "start": "cd src && live-server",
+    "format": "prettier **/*.js --write"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "bracketSpacing": false,
+    "trailingComma": "es5"
   },
   "devDependencies": {
-    "live-server": "^1.2.1"
+    "live-server": "^1.2.1",
+    "prettier": "^1.15.3"
   }
 }
