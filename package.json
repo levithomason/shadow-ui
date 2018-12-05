@@ -4,7 +4,7 @@
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "cd src && live-server",
+    "start": "live-server --mount=/:docs --mount=/:src",
     "format": "prettier **/*.js --write"
   },
   "prettier": {
